@@ -1,0 +1,35 @@
+* {
+  background-color: darkgrey;
+}
+
+body {
+  margin-left: 30px;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 5vw;
+  /* font-size: 3em; */
+}
+
+figure {
+  width: 70%;
+  border: 5px solid black;
+  padding: 30px;
+  background-color: pink;
+  font-size: 30px;
+}
+
+figcaption {
+  background-color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: 'Lobster', cursive;
+  font-size: 1em;
+  line-height: 150%;
+}
