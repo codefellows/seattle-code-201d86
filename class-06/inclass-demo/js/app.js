@@ -124,3 +124,50 @@ let jumper = {
 
 jumper.getAge();
 jumper.render();
+
+let serena = {
+  name: 'Serena',
+  age: 0,
+  interests: ['dry food', 'plotting', 'fish cookies'],
+  isGoodWithCats: false,
+  isGoodWithDogs: true,
+  isGoodWithKids: false,
+  photo: 'img/serena.jpeg',
+  getAge: function(){
+    this.age = `${randomAge(3,12)} months old`
+  },
+
+  // **** DOM MANIPULATION ***
+  render: function(){
+    // Create element
+    let articleElem = document.createElement('article');
+    // Add to the DOM
+    kittenSection.appendChild(articleElem);
+
+    // h2
+    let h2Elem = document.createElement('h2');
+    h2Elem.textContent = this.name; // optional
+    articleElem.appendChild(h2Elem);
+
+    let pElem = document.createElement('p');
+    pElem.textContent = `${this.name} is adorable and is ${this.age}`;
+    articleElem.appendChild(pElem);
+
+    let ulElem = document.createElement('ul');
+    articleElem.appendChild(ulElem);
+
+    for(let i = 0; i < this.interests.length; i++){
+      let liElem = document.createElement('li');
+      liElem.textContent = this.interests[i];
+      ulElem.appendChild(liElem);
+    }
+
+    let imgElem = document.createElement('img');
+    imgElem.src = this.photo;
+    imgElem.alt = `${this.name} is adorable and is ${this.age}`;
+    articleElem.appendChild(imgElem);
+  }
+};
+
+serena.getAge();
+serena.render();
