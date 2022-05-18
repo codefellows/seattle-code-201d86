@@ -1,5 +1,12 @@
 # More Topics in CSS Layouts
 
+## IN CLASS NOTES AND TAKEAWAYS
+
+- [2d Array Replit](https://replit.com/@arpatterson31/Class201d86-2D-array#index.js)
+- [Flexbox demo](flexbox-demo)
+- [Flexbox froggy Game](https://flexboxfroggy.com/)
+- [Wireframe](lab-a/)
+
 ## Overview
 
 In this class you will learn to layout a page using CSS and HTML with a given a wireframe. We will also be covering a more advanced CSS layout, Flexbox.
