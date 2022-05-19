@@ -121,7 +121,7 @@ function handleSubmit(event){
 
   let kittyName = event.target.kittyName.value;
   let interests = event.target.interests.value;
-  interests = interests.split(','); //
+  interests = interests.split(','); // string method that will split on the character provided and returns an array of elements that were split
   // playing,napping,eating  = ['playing', 'napping', 'eating']
   let photo = event.target.photo.value;
 
@@ -134,7 +134,7 @@ function handleSubmit(event){
   newKitten.getAge();
   newKitten.render();
 
-  // remove the footer - then recreate it
+  // HINT FOR LAB - remove the footer - then recreate it
 
   kittenForm.reset(); // reset form
 }
