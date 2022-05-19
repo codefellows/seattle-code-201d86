@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Forms and Events</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Events: boxes and forms</h1>
+  </header>
+  <main>
+    <!-- <section id="container">
+      <h3>Click on a box below</h3>
+
+      <article id="box-one">Box 1</article>
+      <article id="box-two">Box 2</article>
+      <article id="box-three">Box 3</article>
+      <section id="results"></section>
+    </section> -->
+
+    <form id="my-form">
+      <fieldset>
+        <legend>Give your fieldset some context</legend>
+        <!-- One way of creating an input with a label (siblings) for on label and id on input -->
+        <label for="fullName">Full Name</label>
+        <input id="fullName" type="text" name="fullName">
+        <!-- event.target.fullName.value -->
+
+        <!-- 2nd is nest your input in your label -->
+        <label>Age
+          <input type="number" name="age">
+          <!-- event.target.age.value -->
+        </label>
+
+        <label for="housewives">Fav Housewives</label>
+        <select name="housewives" id="housewives">
+          <option value="slc">SLC</option>
+          <!-- event.target.housewives.value -->
+          <option value="Beverly Hills">Beverly Hills</option>
+          <option value="atlanta">Atlanta</option>
+        </select>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>

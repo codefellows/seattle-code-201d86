@@ -1,0 +1,165 @@
+body {
+  background-color: #b4bec8;
+}
+
+header {
+  background-color: #797d80;
+  height: 100px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  background-color: inherit;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+main>h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.75em;
+  width: max-content;
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+section {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+article {
+  border: 5px double #020005;
+  background-color: #75abe9;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+article h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.75em;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.25em;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+}
+
+ul {
+  font-size: 1.75em;
+  font-family: 'Archivo', sans-serif;
+  list-style-type: "🐾   ";
+  list-style-position: inside;
+  margin-bottom: 15px;
+}
+
+li {
+  font-family: 'Archivo', sans-serif;
+  font-size: .75em;
+  margin-top: 15px;
+
+}
+
+img {
+  margin-bottom: 30px;
+}
+
+table * {
+  font-family: 'Archivo', sans-serif;
+  background-color: #797d80;
+  border: 1px double #020005;
+  padding: 8px;
+}
+
+th {
+  font-weight:900;
+}
+
+td {
+  text-align: center;
+}
+
+
+
+/* form */
+
+form {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 60%;
+  margin: auto;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  background-color: hsl(222, 79%, 78%);
+  border: 4px solid hsl(202, 15%, 26%);
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+}
+
+form legend {
+  font-size: 1.5rem;
+}
+
+form p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+form label {
+  display: inline-block;
+  font: 1rem sans-serif;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+  font-size: 1rem;
+  display: block;
+  box-sizing: border-box;
+  width: 80%;
+  padding: 0.5rem 0.75rem;
+}
+
+input[type="checkbox"] {
+  height: 1.5em;
+  width: 1.5em;
+  vertical-align: middle
+}
+
+button {
+  font-size: 1.25rem;
+  width: max-content;
+  margin-top: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  padding: 0.75rem 1.25rem;
+}
+
+button[type="submit"] {
+  background-color: hsl(213, 73%, 50%);
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: hsl(213, 73%, 40%);
+}
+
+footer {
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.5em;
+  padding-top: 15px;
+  text-align: right;
+  padding-right: 10px;
+  height: 100px;
+  background-color: #797d80;
+  margin-top: 30px;
+}
