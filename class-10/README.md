@@ -1,5 +1,9 @@
 # JS Debugging and More CSS Layout
 
+## IN CLASS NOTES AND TAKEAWAYS
+
+- [Array methods replit](https://replit.com/@arpatterson31/Class201d86-ARRAY-METHODS#index.js)
+
 ## Overview
 
 Learning how to **debug** your code will help you to better identify the errors you see in your console, and how to fix them.
