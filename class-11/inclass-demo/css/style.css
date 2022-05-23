@@ -1,0 +1,29 @@
+body {
+  background-color: #bde0fe;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  padding: 30px;
+  text-decoration: underline;
+  
+}
+
+
+
+img {
+  width: 300px;
+  border: 1px solid black;
+}
+
+
+main div {
+  width: max-content;
+  border: 2px solid #ffafcc;
+  padding:10px;
+  border-radius: 5px;
+  background: #ffc8dd;
+
+}
