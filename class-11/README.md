@@ -1,5 +1,10 @@
 # Audio/Video, Practical Info, and Getting the Vote Tracker Started
 
+## IN CLASS TAKEAWAYS
+
+- [Grid Demo](grid-demo/)
+- [Goat Vote In Class Demo](inclass-demo/)
+
 ## Overview
 
 This class will be the start of a new project. You will also be learning a new CSS layout with grid.
