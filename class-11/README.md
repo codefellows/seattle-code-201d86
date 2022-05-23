@@ -3,6 +3,7 @@
 ## IN CLASS TAKEAWAYS
 
 - [Grid Demo](grid-demo/)
+- [CSS Grid Garden - Game](https://cssgridgarden.com/)
 - [Goat Vote In Class Demo](inclass-demo/)
 
 ## Overview
