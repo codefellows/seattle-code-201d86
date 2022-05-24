@@ -1,0 +1,133 @@
+body {
+  background-color: #212529;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 4em;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(200px, auto);
+}
+
+#img-container {
+  grid-column: 2/-1;
+  grid-row: 1/3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#results-container {
+  grid-row: 1/5;
+  margin-left: 30px;
+  line-height: 2em;
+}
+
+ul {
+  color: #fff;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  border-style: solid;
+  border-width: 4px;
+  border-image: linear-gradient(
+    hsl(224, 85%, 66%),
+    hsl(269, 85%, 66%),
+    hsl(314, 85%, 66%),
+    hsl(359, 85%, 66%),
+    hsl(44, 85%, 66%),
+    hsl(89, 85%, 66%),
+    hsl(134, 85%, 66%),
+    hsl(179, 85%, 66%)
+  ) 1;
+
+}
+
+#show-results-btn {
+  width: max-content;
+  font-family: 'Exo 2', sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #111;
+  position: relative;
+  z-index: 0;
+  margin: 30px auto 30px;
+}
+
+
+#show-results-btn:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+#show-results-btn:active {
+  color: #000
+}
+
+
+#show-results-btn:active:after {
+  background: transparent;
+}
+
+#show-results-btn:hover:before {
+  opacity: 1;
+}
+
+#show-results-btn:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+footer {
+  height: 100px;
+  font-size: 1.5em;
+  text-align: right;
+}
